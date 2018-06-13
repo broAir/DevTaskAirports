@@ -1,21 +1,35 @@
 ﻿using System.Collections.Generic;
+using DevTask.Services.Storage.Map;
 using DevTask.Services.Storage.Model;
 
 namespace DevTask.Services.Storage
 {
-    public abstract class Repository<TEntity, TId> : IRepository<TEntity, TId> 
+    public abstract class Repository<TDataStore, TDataStoreEntity, TEntity, TId> : IRepository<TEntity, TId> 
         where TEntity : IEntityHasId<TId>
+        where TDataStoreEntity : IEntityHasId<TId>
+        where TDataStore: IDataStore<TDataStoreEntity, TId>
     {
-        protected IDataStore<IEntityHasId<TId>, TId> DataStore { get; set; }   
+        protected IMapperFactory EntityMapperFactory { get; set; }
+        protected TDataStore DataStore { get; set; }
+
+        protected Repository(TDataStore dataStore, IMapperFactory mapperFactory)
+        {
+            DataStore = dataStore;
+            EntityMapperFactory = mapperFactory;
+        }
         
         public TEntity Get(TId id)
         {
-            return (TEntity) DataStore.Get(id);
+            // get the entity from the actual storage
+            // cast or convert the entity
+            var dataItem = DataStore.Get(id);
+            return EntityMapperFactory.ResolveMapper<TDataStoreEntity, TEntity>().Map(dataItem);
         }
 
         public IEnumerable<TEntity> Get(IEnumerable<TId> ids = null)
         {
-            return (IEnumerable<TEntity>) DataStore.Get(ids);
+            var dataItems = DataStore.Get(ids);
+            return EntityMapperFactory.ResolveMapper<TDataStoreEntity, TEntity>().MapMany(dataItems);
         }
 
         public void Put(TEntity entity)
