@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/andrey/Development/Projects/DevTask/DevTask.App/DevTask.App.csproj",
-    "projectName": "DevTask.App",
-    "projectPath": "/Users/andrey/Development/Projects/DevTask/DevTask.App/DevTask.App.csproj",
-    "outputPath": "/Users/andrey/Development/Projects/DevTask/DevTask.App/obj/",
+    "projectUniqueName": "/Users/andrey/Development/Projects/DevTask/DevTask.AirportsWorker/DevTask.AirportsWorker.csproj",
+    "projectName": "DevTask.AirportsWorker",
+    "projectPath": "/Users/andrey/Development/Projects/DevTask/DevTask.AirportsWorker/DevTask.AirportsWorker.csproj",
+    "outputPath": "/Users/andrey/Development/Projects/DevTask/DevTask.AirportsWorker/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -30,10 +30,6 @@
   "frameworks": {
     "netcoreapp2.0": {
       "dependencies": {
-        "Microsoft.AspNetCore.All": {
-          "target": "Package",
-          "version": "[2.0.8, )"
-        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",

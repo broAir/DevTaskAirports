@@ -4,9 +4,7 @@ using DevTask.Services.Http.Model.Abstract;
 namespace DevTask.Services.Http.Abstract
 {
     // this is not used in the code but usually i would do it htis way
-    public abstract class HttpService<TEntity>
-        // : IHttpService
-    where TEntity: IHttpServiceEntityModel
+    public abstract class HttpService<TEntity> : IHttpService<TEntity> where TEntity: IHttpGetResponseModel
     {
         protected string BaseUrl { get; set; }
         protected string GetUrl { get; set; }
@@ -32,5 +30,12 @@ namespace DevTask.Services.Http.Abstract
         {
             return $"{baseUrl}/{addUrl}";
         }
+    }
+
+    
+    public interface IHttpService<TEntity> where TEntity : IHttpGetResponseModel
+    {
+        Task<TEntity> Get();
+        // Post, put, etc
     }
 }
