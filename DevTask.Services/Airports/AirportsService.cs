@@ -13,15 +13,13 @@ namespace DevTask.Services.Airports
     public class AirportsService : IAirportsService
     {
         protected IAirportsHttpService AirportsHttpService { get; set; }
-        protected IAirportsServiceSettings Settings { get; set; }
         protected IAirportsRepository AirportsRepository { get; set; }
         protected IMapperFactory MapperFactory { get; set; }
 
-        public AirportsService(IAirportsHttpService airportsHttpService, IAirportsServiceSettings settings,
-            IAirportsRepository airportsRepository, IMapperFactory mapperFactory)
+        public AirportsService(IAirportsHttpService airportsHttpService, IAirportsRepository airportsRepository, 
+            IMapperFactory mapperFactory)
         {
             AirportsHttpService = airportsHttpService;
-            Settings = settings;
             AirportsRepository = airportsRepository;
             MapperFactory = mapperFactory;
         }

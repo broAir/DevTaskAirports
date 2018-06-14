@@ -1,0 +1,9 @@
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/bin/Debug/netcoreapp2.0/DevTask.Services.deps.json
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/bin/Debug/netcoreapp2.0/DevTask.Services.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/bin/Debug/netcoreapp2.0/DevTask.Services.pdb
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/obj/Debug/netcoreapp2.0/DevTask.Services.csprojAssemblyReference.cache
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/obj/Debug/netcoreapp2.0/DevTask.Services.csproj.CoreCompileInputs.cache
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/obj/Debug/netcoreapp2.0/DevTask.Services.AssemblyInfoInputs.cache
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/obj/Debug/netcoreapp2.0/DevTask.Services.AssemblyInfo.cs
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/obj/Debug/netcoreapp2.0/DevTask.Services.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Services/obj/Debug/netcoreapp2.0/DevTask.Services.pdb

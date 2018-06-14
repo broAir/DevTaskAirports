@@ -1,0 +1,17 @@
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/DevTask.Tests.deps.json
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/DevTask.Tests.runtimeconfig.json
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/DevTask.Tests.runtimeconfig.dev.json
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/DevTask.Tests.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/DevTask.Tests.pdb
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/DevTask.Services.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/bin/Debug/netcoreapp2.0/DevTask.Services.pdb
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/obj/Debug/netcoreapp2.0/DevTask.Tests.csprojAssemblyReference.cache
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/obj/Debug/netcoreapp2.0/DevTask.Tests.csproj.CoreCompileInputs.cache
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/obj/Debug/netcoreapp2.0/DevTask.Tests.AssemblyInfoInputs.cache
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/obj/Debug/netcoreapp2.0/DevTask.Tests.AssemblyInfo.cs
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/obj/Debug/netcoreapp2.0/DevTask.Tests.csproj.CopyComplete
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/obj/Debug/netcoreapp2.0/DevTask.Tests.dll
+/Users/andrey/Development/Projects/DevTask/DevTask.Tests/obj/Debug/netcoreapp2.0/DevTask.Tests.pdb
